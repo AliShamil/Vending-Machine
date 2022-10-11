@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.rbCola = new System.Windows.Forms.RadioButton();
-            this.rb_Lays = new System.Windows.Forms.RadioButton();
-            this.rb_Doritos = new System.Windows.Forms.RadioButton();
-            this.rb_Baltika = new System.Windows.Forms.RadioButton();
+            this.rbP1 = new System.Windows.Forms.RadioButton();
+            this.rbP2 = new System.Windows.Forms.RadioButton();
+            this.rbP3 = new System.Windows.Forms.RadioButton();
+            this.rbP4 = new System.Windows.Forms.RadioButton();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.roundButton1 = new Vending_Machine.RoundButton();
             this.roundButton2 = new Vending_Machine.RoundButton();
@@ -45,54 +45,30 @@
             this.btn_buy = new System.Windows.Forms.Button();
             this.txt_enteredAmount = new System.Windows.Forms.TextBox();
             this.txt_Leftover = new System.Windows.Forms.TextBox();
-            this.panel_Cola = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
             this.General_Panel = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel_Oreo = new System.Windows.Forms.Panel();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.panel_Snickers = new System.Windows.Forms.Panel();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.panel_Twix = new System.Windows.Forms.Panel();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.panel_macCofe = new System.Windows.Forms.Panel();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.rb_Snickers = new System.Windows.Forms.RadioButton();
-            this.rb_macCofe = new System.Windows.Forms.RadioButton();
-            this.rb_Twix = new System.Windows.Forms.RadioButton();
-            this.rb_Oreo = new System.Windows.Forms.RadioButton();
+            this.productPlace11 = new Vending_Machine.ProductControl();
+            this.productPlace12 = new Vending_Machine.ProductControl();
+            this.productPlace9 = new Vending_Machine.ProductControl();
+            this.productPlace10 = new Vending_Machine.ProductControl();
+            this.rbP11 = new System.Windows.Forms.RadioButton();
+            this.rbP9 = new System.Windows.Forms.RadioButton();
+            this.rbP10 = new System.Windows.Forms.RadioButton();
+            this.rbP12 = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel_Water = new System.Windows.Forms.Panel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel_Crax = new System.Windows.Forms.Panel();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel_FuseTea = new System.Windows.Forms.Panel();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel_Nestle = new System.Windows.Forms.Panel();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.rb_Crax = new System.Windows.Forms.RadioButton();
-            this.rb_Nestle = new System.Windows.Forms.RadioButton();
-            this.rb_FuseTea = new System.Windows.Forms.RadioButton();
-            this.rb_Water = new System.Windows.Forms.RadioButton();
+            this.productPlace7 = new Vending_Machine.ProductControl();
+            this.productPlace8 = new Vending_Machine.ProductControl();
+            this.productPlace5 = new Vending_Machine.ProductControl();
+            this.productPlace6 = new Vending_Machine.ProductControl();
+            this.rbP7 = new System.Windows.Forms.RadioButton();
+            this.rbP5 = new System.Windows.Forms.RadioButton();
+            this.rbP6 = new System.Windows.Forms.RadioButton();
+            this.rbP8 = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel_Baltika = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel_Doritos = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel_Lays = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.productPlace3 = new Vending_Machine.ProductControl();
+            this.productPlace4 = new Vending_Machine.ProductControl();
+            this.productPlace1 = new Vending_Machine.ProductControl();
+            this.productPlace2 = new Vending_Machine.ProductControl();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -102,76 +78,60 @@
             this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel13.SuspendLayout();
-            this.panel_Cola.SuspendLayout();
             this.General_Panel.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
-            this.panel_Oreo.SuspendLayout();
-            this.panel_Snickers.SuspendLayout();
-            this.panel_Twix.SuspendLayout();
-            this.panel_macCofe.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.panel_Water.SuspendLayout();
-            this.panel_Crax.SuspendLayout();
-            this.panel_FuseTea.SuspendLayout();
-            this.panel_Nestle.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.panel_Baltika.SuspendLayout();
-            this.panel_Doritos.SuspendLayout();
-            this.panel_Lays.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
-            // rbCola
+            // rbP1
             // 
-            this.rbCola.AutoSize = true;
-            this.rbCola.Location = new System.Drawing.Point(9, 106);
-            this.rbCola.Name = "rbCola";
-            this.rbCola.Size = new System.Drawing.Size(94, 19);
-            this.rbCola.TabIndex = 2;
-            this.rbCola.TabStop = true;
-            this.rbCola.Tag = "Cola";
-            this.rbCola.Text = "radioButton1";
-            this.rbCola.UseVisualStyleBackColor = true;
-            this.rbCola.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
+            this.rbP1.AutoSize = true;
+            this.rbP1.Location = new System.Drawing.Point(9, 106);
+            this.rbP1.Name = "rbP1";
+            this.rbP1.Size = new System.Drawing.Size(14, 13);
+            this.rbP1.TabIndex = 2;
+            this.rbP1.TabStop = true;
+            this.rbP1.Tag = "Cola";
+            this.rbP1.UseVisualStyleBackColor = true;
+            this.rbP1.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
-            // rb_Lays
+            // rbP2
             // 
-            this.rb_Lays.AutoSize = true;
-            this.rb_Lays.Location = new System.Drawing.Point(119, 106);
-            this.rb_Lays.Name = "rb_Lays";
-            this.rb_Lays.Size = new System.Drawing.Size(94, 19);
-            this.rb_Lays.TabIndex = 4;
-            this.rb_Lays.TabStop = true;
-            this.rb_Lays.Tag = "Lays";
-            this.rb_Lays.Text = "radioButton2";
-            this.rb_Lays.UseVisualStyleBackColor = true;
-            this.rb_Lays.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
+            this.rbP2.AutoSize = true;
+            this.rbP2.Location = new System.Drawing.Point(119, 106);
+            this.rbP2.Name = "rbP2";
+            this.rbP2.Size = new System.Drawing.Size(14, 13);
+            this.rbP2.TabIndex = 4;
+            this.rbP2.TabStop = true;
+            this.rbP2.Tag = "Lays";
+            this.rbP2.UseVisualStyleBackColor = true;
+            this.rbP2.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
-            // rb_Doritos
+            // rbP3
             // 
-            this.rb_Doritos.AutoSize = true;
-            this.rb_Doritos.Location = new System.Drawing.Point(233, 106);
-            this.rb_Doritos.Name = "rb_Doritos";
-            this.rb_Doritos.Size = new System.Drawing.Size(94, 19);
-            this.rb_Doritos.TabIndex = 4;
-            this.rb_Doritos.TabStop = true;
-            this.rb_Doritos.Text = "radioButton3";
-            this.rb_Doritos.UseVisualStyleBackColor = true;
-            this.rb_Doritos.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
+            this.rbP3.AutoSize = true;
+            this.rbP3.Location = new System.Drawing.Point(233, 106);
+            this.rbP3.Name = "rbP3";
+            this.rbP3.Size = new System.Drawing.Size(14, 13);
+            this.rbP3.TabIndex = 4;
+            this.rbP3.TabStop = true;
+            this.rbP3.UseVisualStyleBackColor = true;
+            this.rbP3.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
-            // rb_Baltika
+            // rbP4
             // 
-            this.rb_Baltika.AutoSize = true;
-            this.rb_Baltika.Location = new System.Drawing.Point(355, 106);
-            this.rb_Baltika.Name = "rb_Baltika";
-            this.rb_Baltika.Size = new System.Drawing.Size(94, 19);
-            this.rb_Baltika.TabIndex = 4;
-            this.rb_Baltika.TabStop = true;
-            this.rb_Baltika.Text = "radioButton4";
-            this.rb_Baltika.UseVisualStyleBackColor = true;
-            this.rb_Baltika.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
+            this.rbP4.AutoSize = true;
+            this.rbP4.Location = new System.Drawing.Point(355, 106);
+            this.rbP4.Name = "rbP4";
+            this.rbP4.Size = new System.Drawing.Size(14, 13);
+            this.rbP4.TabIndex = 4;
+            this.rbP4.TabStop = true;
+            this.rbP4.UseVisualStyleBackColor = true;
+            this.rbP4.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
             // numericUpDown1
             // 
@@ -299,59 +259,28 @@
             this.txt_Leftover.TabIndex = 15;
             this.txt_Leftover.Text = "0.00 AZN";
             // 
-            // panel_Cola
-            // 
-            this.panel_Cola.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_Cola.Controls.Add(this.textBox4);
-            this.panel_Cola.Controls.Add(this.label15);
-            this.panel_Cola.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Cola.Location = new System.Drawing.Point(4, 4);
-            this.panel_Cola.Name = "panel_Cola";
-            this.panel_Cola.Size = new System.Drawing.Size(104, 92);
-            this.panel_Cola.TabIndex = 16;
-            this.panel_Cola.Tag = "Cola";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(18, 46);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(72, 23);
-            this.textBox4.TabIndex = 1;
-            this.textBox4.Text = "0.00 AZN";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(18, 13);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(44, 15);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "label15";
-            // 
             // General_Panel
             // 
             this.General_Panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.General_Panel.Controls.Add(this.tableLayoutPanel4);
-            this.General_Panel.Controls.Add(this.rb_Snickers);
-            this.General_Panel.Controls.Add(this.rb_macCofe);
-            this.General_Panel.Controls.Add(this.rb_Twix);
-            this.General_Panel.Controls.Add(this.rb_Oreo);
+            this.General_Panel.Controls.Add(this.rbP11);
+            this.General_Panel.Controls.Add(this.rbP9);
+            this.General_Panel.Controls.Add(this.rbP10);
+            this.General_Panel.Controls.Add(this.rbP12);
             this.General_Panel.Controls.Add(this.tableLayoutPanel3);
-            this.General_Panel.Controls.Add(this.rb_Crax);
-            this.General_Panel.Controls.Add(this.rb_Nestle);
-            this.General_Panel.Controls.Add(this.rb_FuseTea);
-            this.General_Panel.Controls.Add(this.rb_Water);
+            this.General_Panel.Controls.Add(this.rbP7);
+            this.General_Panel.Controls.Add(this.rbP5);
+            this.General_Panel.Controls.Add(this.rbP6);
+            this.General_Panel.Controls.Add(this.rbP8);
             this.General_Panel.Controls.Add(this.tableLayoutPanel1);
-            this.General_Panel.Controls.Add(this.rb_Doritos);
-            this.General_Panel.Controls.Add(this.rbCola);
-            this.General_Panel.Controls.Add(this.rb_Lays);
-            this.General_Panel.Controls.Add(this.rb_Baltika);
+            this.General_Panel.Controls.Add(this.rbP3);
+            this.General_Panel.Controls.Add(this.rbP1);
+            this.General_Panel.Controls.Add(this.rbP2);
+            this.General_Panel.Controls.Add(this.rbP4);
             this.General_Panel.Location = new System.Drawing.Point(16, 12);
             this.General_Panel.Name = "General_Panel";
             this.General_Panel.Size = new System.Drawing.Size(463, 411);
             this.General_Panel.TabIndex = 17;
-            this.General_Panel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // tableLayoutPanel4
             // 
@@ -361,10 +290,10 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.45045F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 117F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 115F));
-            this.tableLayoutPanel4.Controls.Add(this.panel_Oreo, 3, 0);
-            this.tableLayoutPanel4.Controls.Add(this.panel_Snickers, 2, 0);
-            this.tableLayoutPanel4.Controls.Add(this.panel_Twix, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.panel_macCofe, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.productPlace11, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.productPlace12, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.productPlace9, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.productPlace10, 0, 0);
             this.tableLayoutPanel4.Location = new System.Drawing.Point(-1, 265);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
@@ -372,169 +301,81 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(464, 100);
             this.tableLayoutPanel4.TabIndex = 10;
             // 
-            // panel_Oreo
+            // productPlace11
             // 
-            this.panel_Oreo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_Oreo.Controls.Add(this.textBox13);
-            this.panel_Oreo.Controls.Add(this.label10);
-            this.panel_Oreo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Oreo.Location = new System.Drawing.Point(350, 4);
-            this.panel_Oreo.Name = "panel_Oreo";
-            this.panel_Oreo.Size = new System.Drawing.Size(110, 92);
-            this.panel_Oreo.TabIndex = 19;
+            this.productPlace11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace11.Location = new System.Drawing.Point(232, 4);
+            this.productPlace11.Name = "productPlace11";
+            this.productPlace11.Size = new System.Drawing.Size(111, 92);
+            this.productPlace11.TabIndex = 24;
             // 
-            // textBox13
+            // productPlace12
             // 
-            this.textBox13.Location = new System.Drawing.Point(18, 46);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ReadOnly = true;
-            this.textBox13.Size = new System.Drawing.Size(72, 23);
-            this.textBox13.TabIndex = 1;
-            this.textBox13.Text = "0.00 AZN";
+            this.productPlace12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace12.Location = new System.Drawing.Point(350, 4);
+            this.productPlace12.Name = "productPlace12";
+            this.productPlace12.Size = new System.Drawing.Size(110, 92);
+            this.productPlace12.TabIndex = 23;
             // 
-            // label10
+            // productPlace9
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(18, 13);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(44, 15);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "label10";
+            this.productPlace9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace9.Location = new System.Drawing.Point(4, 4);
+            this.productPlace9.Name = "productPlace9";
+            this.productPlace9.Size = new System.Drawing.Size(106, 92);
+            this.productPlace9.TabIndex = 22;
             // 
-            // panel_Snickers
+            // productPlace10
             // 
-            this.panel_Snickers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_Snickers.Controls.Add(this.textBox14);
-            this.panel_Snickers.Controls.Add(this.label11);
-            this.panel_Snickers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Snickers.Location = new System.Drawing.Point(232, 4);
-            this.panel_Snickers.Name = "panel_Snickers";
-            this.panel_Snickers.Size = new System.Drawing.Size(111, 92);
-            this.panel_Snickers.TabIndex = 18;
+            this.productPlace10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace10.Location = new System.Drawing.Point(117, 4);
+            this.productPlace10.Name = "productPlace10";
+            this.productPlace10.Size = new System.Drawing.Size(108, 92);
+            this.productPlace10.TabIndex = 21;
             // 
-            // textBox14
+            // rbP11
             // 
-            this.textBox14.Location = new System.Drawing.Point(18, 46);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.Size = new System.Drawing.Size(72, 23);
-            this.textBox14.TabIndex = 1;
-            this.textBox14.Text = "0.00 AZN";
+            this.rbP11.AutoSize = true;
+            this.rbP11.Location = new System.Drawing.Point(236, 371);
+            this.rbP11.Name = "rbP11";
+            this.rbP11.Size = new System.Drawing.Size(14, 13);
+            this.rbP11.TabIndex = 12;
+            this.rbP11.TabStop = true;
+            this.rbP11.UseVisualStyleBackColor = true;
+            this.rbP11.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
-            // label11
+            // rbP9
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(18, 13);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 15);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "label11";
+            this.rbP9.AutoSize = true;
+            this.rbP9.Location = new System.Drawing.Point(12, 371);
+            this.rbP9.Name = "rbP9";
+            this.rbP9.Size = new System.Drawing.Size(14, 13);
+            this.rbP9.TabIndex = 11;
+            this.rbP9.TabStop = true;
+            this.rbP9.UseVisualStyleBackColor = true;
+            this.rbP9.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
-            // panel_Twix
+            // rbP10
             // 
-            this.panel_Twix.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_Twix.Controls.Add(this.textBox15);
-            this.panel_Twix.Controls.Add(this.label12);
-            this.panel_Twix.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Twix.Location = new System.Drawing.Point(117, 4);
-            this.panel_Twix.Name = "panel_Twix";
-            this.panel_Twix.Size = new System.Drawing.Size(108, 92);
-            this.panel_Twix.TabIndex = 17;
+            this.rbP10.AutoSize = true;
+            this.rbP10.Location = new System.Drawing.Point(122, 371);
+            this.rbP10.Name = "rbP10";
+            this.rbP10.Size = new System.Drawing.Size(14, 13);
+            this.rbP10.TabIndex = 13;
+            this.rbP10.TabStop = true;
+            this.rbP10.UseVisualStyleBackColor = true;
+            this.rbP10.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
-            // textBox15
+            // rbP12
             // 
-            this.textBox15.Location = new System.Drawing.Point(18, 46);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(72, 23);
-            this.textBox15.TabIndex = 1;
-            this.textBox15.Text = "0.00 AZN";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(18, 13);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(44, 15);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "label12";
-            // 
-            // panel_macCofe
-            // 
-            this.panel_macCofe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_macCofe.Controls.Add(this.textBox16);
-            this.panel_macCofe.Controls.Add(this.label16);
-            this.panel_macCofe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_macCofe.Location = new System.Drawing.Point(4, 4);
-            this.panel_macCofe.Name = "panel_macCofe";
-            this.panel_macCofe.Size = new System.Drawing.Size(106, 92);
-            this.panel_macCofe.TabIndex = 16;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(18, 46);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.ReadOnly = true;
-            this.textBox16.Size = new System.Drawing.Size(72, 23);
-            this.textBox16.TabIndex = 1;
-            this.textBox16.Text = "0.00 AZN";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(18, 13);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(44, 15);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "label16";
-            // 
-            // rb_Snickers
-            // 
-            this.rb_Snickers.AutoSize = true;
-            this.rb_Snickers.Location = new System.Drawing.Point(236, 371);
-            this.rb_Snickers.Name = "rb_Snickers";
-            this.rb_Snickers.Size = new System.Drawing.Size(100, 19);
-            this.rb_Snickers.TabIndex = 12;
-            this.rb_Snickers.TabStop = true;
-            this.rb_Snickers.Text = "radioButton17";
-            this.rb_Snickers.UseVisualStyleBackColor = true;
-            this.rb_Snickers.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
-            // 
-            // rb_macCofe
-            // 
-            this.rb_macCofe.AutoSize = true;
-            this.rb_macCofe.Location = new System.Drawing.Point(12, 371);
-            this.rb_macCofe.Name = "rb_macCofe";
-            this.rb_macCofe.Size = new System.Drawing.Size(100, 19);
-            this.rb_macCofe.TabIndex = 11;
-            this.rb_macCofe.TabStop = true;
-            this.rb_macCofe.Text = "radioButton18";
-            this.rb_macCofe.UseVisualStyleBackColor = true;
-            this.rb_macCofe.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
-            // 
-            // rb_Twix
-            // 
-            this.rb_Twix.AutoSize = true;
-            this.rb_Twix.Location = new System.Drawing.Point(122, 371);
-            this.rb_Twix.Name = "rb_Twix";
-            this.rb_Twix.Size = new System.Drawing.Size(100, 19);
-            this.rb_Twix.TabIndex = 13;
-            this.rb_Twix.TabStop = true;
-            this.rb_Twix.Text = "radioButton19";
-            this.rb_Twix.UseVisualStyleBackColor = true;
-            this.rb_Twix.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
-            // 
-            // rb_Oreo
-            // 
-            this.rb_Oreo.AutoSize = true;
-            this.rb_Oreo.Location = new System.Drawing.Point(358, 371);
-            this.rb_Oreo.Name = "rb_Oreo";
-            this.rb_Oreo.Size = new System.Drawing.Size(100, 19);
-            this.rb_Oreo.TabIndex = 14;
-            this.rb_Oreo.TabStop = true;
-            this.rb_Oreo.Text = "radioButton20";
-            this.rb_Oreo.UseVisualStyleBackColor = true;
-            this.rb_Oreo.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
+            this.rbP12.AutoSize = true;
+            this.rbP12.Location = new System.Drawing.Point(358, 371);
+            this.rbP12.Name = "rbP12";
+            this.rbP12.Size = new System.Drawing.Size(14, 13);
+            this.rbP12.TabIndex = 14;
+            this.rbP12.TabStop = true;
+            this.rbP12.UseVisualStyleBackColor = true;
+            this.rbP12.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
             // tableLayoutPanel3
             // 
@@ -544,10 +385,10 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.45045F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 117F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 115F));
-            this.tableLayoutPanel3.Controls.Add(this.panel_Water, 3, 0);
-            this.tableLayoutPanel3.Controls.Add(this.panel_Crax, 2, 0);
-            this.tableLayoutPanel3.Controls.Add(this.panel_FuseTea, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.panel_Nestle, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.productPlace7, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.productPlace8, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.productPlace5, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.productPlace6, 0, 0);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 134);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
@@ -555,169 +396,81 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(463, 100);
             this.tableLayoutPanel3.TabIndex = 5;
             // 
-            // panel_Water
+            // productPlace7
             // 
-            this.panel_Water.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_Water.Controls.Add(this.textBox9);
-            this.panel_Water.Controls.Add(this.label6);
-            this.panel_Water.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Water.Location = new System.Drawing.Point(349, 4);
-            this.panel_Water.Name = "panel_Water";
-            this.panel_Water.Size = new System.Drawing.Size(110, 92);
-            this.panel_Water.TabIndex = 19;
+            this.productPlace7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace7.Location = new System.Drawing.Point(231, 4);
+            this.productPlace7.Name = "productPlace7";
+            this.productPlace7.Size = new System.Drawing.Size(111, 92);
+            this.productPlace7.TabIndex = 24;
             // 
-            // textBox9
+            // productPlace8
             // 
-            this.textBox9.Location = new System.Drawing.Point(18, 46);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(72, 23);
-            this.textBox9.TabIndex = 1;
-            this.textBox9.Text = "0.00 AZN";
+            this.productPlace8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace8.Location = new System.Drawing.Point(349, 4);
+            this.productPlace8.Name = "productPlace8";
+            this.productPlace8.Size = new System.Drawing.Size(110, 92);
+            this.productPlace8.TabIndex = 23;
             // 
-            // label6
+            // productPlace5
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(18, 13);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "label6";
+            this.productPlace5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace5.Location = new System.Drawing.Point(4, 4);
+            this.productPlace5.Name = "productPlace5";
+            this.productPlace5.Size = new System.Drawing.Size(105, 92);
+            this.productPlace5.TabIndex = 22;
             // 
-            // panel_Crax
+            // productPlace6
             // 
-            this.panel_Crax.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_Crax.Controls.Add(this.textBox10);
-            this.panel_Crax.Controls.Add(this.label7);
-            this.panel_Crax.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Crax.Location = new System.Drawing.Point(231, 4);
-            this.panel_Crax.Name = "panel_Crax";
-            this.panel_Crax.Size = new System.Drawing.Size(111, 92);
-            this.panel_Crax.TabIndex = 18;
+            this.productPlace6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace6.Location = new System.Drawing.Point(116, 4);
+            this.productPlace6.Name = "productPlace6";
+            this.productPlace6.Size = new System.Drawing.Size(108, 92);
+            this.productPlace6.TabIndex = 21;
             // 
-            // textBox10
+            // rbP7
             // 
-            this.textBox10.Location = new System.Drawing.Point(18, 46);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(72, 23);
-            this.textBox10.TabIndex = 1;
-            this.textBox10.Text = "0.00 AZN";
+            this.rbP7.AutoSize = true;
+            this.rbP7.Location = new System.Drawing.Point(233, 240);
+            this.rbP7.Name = "rbP7";
+            this.rbP7.Size = new System.Drawing.Size(14, 13);
+            this.rbP7.TabIndex = 7;
+            this.rbP7.TabStop = true;
+            this.rbP7.UseVisualStyleBackColor = true;
+            this.rbP7.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
-            // label7
+            // rbP5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(18, 13);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 15);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "label7";
+            this.rbP5.AutoSize = true;
+            this.rbP5.Location = new System.Drawing.Point(9, 240);
+            this.rbP5.Name = "rbP5";
+            this.rbP5.Size = new System.Drawing.Size(14, 13);
+            this.rbP5.TabIndex = 6;
+            this.rbP5.TabStop = true;
+            this.rbP5.UseVisualStyleBackColor = true;
+            this.rbP5.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
-            // panel_FuseTea
+            // rbP6
             // 
-            this.panel_FuseTea.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_FuseTea.Controls.Add(this.textBox11);
-            this.panel_FuseTea.Controls.Add(this.label8);
-            this.panel_FuseTea.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_FuseTea.Location = new System.Drawing.Point(116, 4);
-            this.panel_FuseTea.Name = "panel_FuseTea";
-            this.panel_FuseTea.Size = new System.Drawing.Size(108, 92);
-            this.panel_FuseTea.TabIndex = 17;
+            this.rbP6.AutoSize = true;
+            this.rbP6.Location = new System.Drawing.Point(119, 240);
+            this.rbP6.Name = "rbP6";
+            this.rbP6.Size = new System.Drawing.Size(14, 13);
+            this.rbP6.TabIndex = 8;
+            this.rbP6.TabStop = true;
+            this.rbP6.UseVisualStyleBackColor = true;
+            this.rbP6.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
-            // textBox11
+            // rbP8
             // 
-            this.textBox11.Location = new System.Drawing.Point(18, 46);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.ReadOnly = true;
-            this.textBox11.Size = new System.Drawing.Size(72, 23);
-            this.textBox11.TabIndex = 1;
-            this.textBox11.Text = "0.00 AZN";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(18, 13);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 15);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "label8";
-            // 
-            // panel_Nestle
-            // 
-            this.panel_Nestle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_Nestle.Controls.Add(this.textBox12);
-            this.panel_Nestle.Controls.Add(this.label9);
-            this.panel_Nestle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Nestle.Location = new System.Drawing.Point(4, 4);
-            this.panel_Nestle.Name = "panel_Nestle";
-            this.panel_Nestle.Size = new System.Drawing.Size(105, 92);
-            this.panel_Nestle.TabIndex = 16;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(18, 46);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.ReadOnly = true;
-            this.textBox12.Size = new System.Drawing.Size(72, 23);
-            this.textBox12.TabIndex = 1;
-            this.textBox12.Text = "0.00 AZN";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(18, 13);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "label9";
-            // 
-            // rb_Crax
-            // 
-            this.rb_Crax.AutoSize = true;
-            this.rb_Crax.Location = new System.Drawing.Point(233, 240);
-            this.rb_Crax.Name = "rb_Crax";
-            this.rb_Crax.Size = new System.Drawing.Size(100, 19);
-            this.rb_Crax.TabIndex = 7;
-            this.rb_Crax.TabStop = true;
-            this.rb_Crax.Text = "radioButton13";
-            this.rb_Crax.UseVisualStyleBackColor = true;
-            this.rb_Crax.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
-            // 
-            // rb_Nestle
-            // 
-            this.rb_Nestle.AutoSize = true;
-            this.rb_Nestle.Location = new System.Drawing.Point(9, 240);
-            this.rb_Nestle.Name = "rb_Nestle";
-            this.rb_Nestle.Size = new System.Drawing.Size(100, 19);
-            this.rb_Nestle.TabIndex = 6;
-            this.rb_Nestle.TabStop = true;
-            this.rb_Nestle.Text = "radioButton14";
-            this.rb_Nestle.UseVisualStyleBackColor = true;
-            this.rb_Nestle.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
-            // 
-            // rb_FuseTea
-            // 
-            this.rb_FuseTea.AutoSize = true;
-            this.rb_FuseTea.Location = new System.Drawing.Point(119, 240);
-            this.rb_FuseTea.Name = "rb_FuseTea";
-            this.rb_FuseTea.Size = new System.Drawing.Size(100, 19);
-            this.rb_FuseTea.TabIndex = 8;
-            this.rb_FuseTea.TabStop = true;
-            this.rb_FuseTea.Text = "radioButton15";
-            this.rb_FuseTea.UseVisualStyleBackColor = true;
-            this.rb_FuseTea.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
-            // 
-            // rb_Water
-            // 
-            this.rb_Water.AutoSize = true;
-            this.rb_Water.Location = new System.Drawing.Point(355, 240);
-            this.rb_Water.Name = "rb_Water";
-            this.rb_Water.Size = new System.Drawing.Size(100, 19);
-            this.rb_Water.TabIndex = 9;
-            this.rb_Water.TabStop = true;
-            this.rb_Water.Text = "radioButton16";
-            this.rb_Water.UseVisualStyleBackColor = true;
-            this.rb_Water.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
+            this.rbP8.AutoSize = true;
+            this.rbP8.Location = new System.Drawing.Point(355, 240);
+            this.rbP8.Name = "rbP8";
+            this.rbP8.Size = new System.Drawing.Size(14, 13);
+            this.rbP8.TabIndex = 9;
+            this.rbP8.TabStop = true;
+            this.rbP8.UseVisualStyleBackColor = true;
+            this.rbP8.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
             // 
             // tableLayoutPanel1
             // 
@@ -727,10 +480,10 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.45045F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 117F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 115F));
-            this.tableLayoutPanel1.Controls.Add(this.panel_Baltika, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel_Doritos, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel_Lays, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel_Cola, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.productPlace3, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.productPlace4, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.productPlace1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.productPlace2, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -739,93 +492,37 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(461, 100);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // panel_Baltika
+            // productPlace3
             // 
-            this.panel_Baltika.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_Baltika.Controls.Add(this.textBox6);
-            this.panel_Baltika.Controls.Add(this.label3);
-            this.panel_Baltika.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Baltika.Location = new System.Drawing.Point(347, 4);
-            this.panel_Baltika.Name = "panel_Baltika";
-            this.panel_Baltika.Size = new System.Drawing.Size(110, 92);
-            this.panel_Baltika.TabIndex = 19;
-            this.panel_Baltika.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            this.productPlace3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace3.Location = new System.Drawing.Point(229, 4);
+            this.productPlace3.Name = "productPlace3";
+            this.productPlace3.Size = new System.Drawing.Size(111, 92);
+            this.productPlace3.TabIndex = 23;
             // 
-            // textBox6
+            // productPlace4
             // 
-            this.textBox6.Location = new System.Drawing.Point(18, 46);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(72, 23);
-            this.textBox6.TabIndex = 1;
-            this.textBox6.Text = "0.00 AZN";
+            this.productPlace4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace4.Location = new System.Drawing.Point(347, 4);
+            this.productPlace4.Name = "productPlace4";
+            this.productPlace4.Size = new System.Drawing.Size(110, 92);
+            this.productPlace4.TabIndex = 22;
             // 
-            // label3
+            // productPlace1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 13);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "label3";
+            this.productPlace1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace1.Location = new System.Drawing.Point(4, 4);
+            this.productPlace1.Name = "productPlace1";
+            this.productPlace1.Size = new System.Drawing.Size(104, 92);
+            this.productPlace1.TabIndex = 21;
             // 
-            // panel_Doritos
+            // productPlace2
             // 
-            this.panel_Doritos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_Doritos.Controls.Add(this.textBox5);
-            this.panel_Doritos.Controls.Add(this.label2);
-            this.panel_Doritos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Doritos.Location = new System.Drawing.Point(229, 4);
-            this.panel_Doritos.Name = "panel_Doritos";
-            this.panel_Doritos.Size = new System.Drawing.Size(111, 92);
-            this.panel_Doritos.TabIndex = 18;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(18, 46);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(72, 23);
-            this.textBox5.TabIndex = 1;
-            this.textBox5.Text = "0.00 AZN";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "label2";
-            // 
-            // panel_Lays
-            // 
-            this.panel_Lays.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel_Lays.Controls.Add(this.textBox1);
-            this.panel_Lays.Controls.Add(this.label1);
-            this.panel_Lays.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Lays.Location = new System.Drawing.Point(115, 4);
-            this.panel_Lays.Name = "panel_Lays";
-            this.panel_Lays.Size = new System.Drawing.Size(107, 92);
-            this.panel_Lays.TabIndex = 17;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(18, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(72, 23);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "0.00 AZN";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.productPlace2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productPlace2.Location = new System.Drawing.Point(115, 4);
+            this.productPlace2.Name = "productPlace2";
+            this.productPlace2.Size = new System.Drawing.Size(107, 92);
+            this.productPlace2.TabIndex = 20;
             // 
             // tableLayoutPanel2
             // 
@@ -922,35 +619,11 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.panel13.ResumeLayout(false);
-            this.panel_Cola.ResumeLayout(false);
-            this.panel_Cola.PerformLayout();
             this.General_Panel.ResumeLayout(false);
             this.General_Panel.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
-            this.panel_Oreo.ResumeLayout(false);
-            this.panel_Oreo.PerformLayout();
-            this.panel_Snickers.ResumeLayout(false);
-            this.panel_Snickers.PerformLayout();
-            this.panel_Twix.ResumeLayout(false);
-            this.panel_Twix.PerformLayout();
-            this.panel_macCofe.ResumeLayout(false);
-            this.panel_macCofe.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.panel_Water.ResumeLayout(false);
-            this.panel_Water.PerformLayout();
-            this.panel_Crax.ResumeLayout(false);
-            this.panel_Crax.PerformLayout();
-            this.panel_FuseTea.ResumeLayout(false);
-            this.panel_FuseTea.PerformLayout();
-            this.panel_Nestle.ResumeLayout(false);
-            this.panel_Nestle.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel_Baltika.ResumeLayout(false);
-            this.panel_Baltika.PerformLayout();
-            this.panel_Doritos.ResumeLayout(false);
-            this.panel_Doritos.PerformLayout();
-            this.panel_Lays.ResumeLayout(false);
-            this.panel_Lays.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
@@ -962,10 +635,10 @@
         }
 
         #endregion
-        private RadioButton rbCola;
-        private RadioButton rb_Lays;
-        private RadioButton rb_Doritos;
-        private RadioButton rb_Baltika;
+        private RadioButton rbP1;
+        private RadioButton rbP2;
+        private RadioButton rbP3;
+        private RadioButton rbP4;
         private NumericUpDown numericUpDown1;
         private RoundButton roundButton1;
         private RoundButton roundButton2;
@@ -979,54 +652,18 @@
         private Button btn_buy;
         private TextBox txt_enteredAmount;
         private TextBox txt_Leftover;
-        private Panel panel_Cola;
-        private TextBox textBox4;
-        private Label label15;
         private Panel General_Panel;
         private TableLayoutPanel tableLayoutPanel1;
         private TableLayoutPanel tableLayoutPanel4;
-        private Panel panel_Oreo;
-        private TextBox textBox13;
-        private Label label10;
-        private Panel panel_Snickers;
-        private TextBox textBox14;
-        private Label label11;
-        private Panel panel_Twix;
-        private TextBox textBox15;
-        private Label label12;
-        private Panel panel_macCofe;
-        private TextBox textBox16;
-        private Label label16;
-        private RadioButton rb_Snickers;
-        private RadioButton rb_macCofe;
-        private RadioButton rb_Twix;
-        private RadioButton rb_Oreo;
+        private RadioButton rbP11;
+        private RadioButton rbP9;
+        private RadioButton rbP10;
+        private RadioButton rbP12;
         private TableLayoutPanel tableLayoutPanel3;
-        private Panel panel_Water;
-        private TextBox textBox9;
-        private Label label6;
-        private Panel panel_Crax;
-        private TextBox textBox10;
-        private Label label7;
-        private Panel panel_FuseTea;
-        private TextBox textBox11;
-        private Label label8;
-        private Panel panel_Nestle;
-        private TextBox textBox12;
-        private Label label9;
-        private RadioButton rb_Crax;
-        private RadioButton rb_Nestle;
-        private RadioButton rb_FuseTea;
-        private RadioButton rb_Water;
-        private Panel panel_Baltika;
-        private TextBox textBox6;
-        private Label label3;
-        private Panel panel_Doritos;
-        private TextBox textBox5;
-        private Label label2;
-        private Panel panel_Lays;
-        private TextBox textBox1;
-        private Label label1;
+        private RadioButton rbP7;
+        private RadioButton rbP5;
+        private RadioButton rbP6;
+        private RadioButton rbP8;
         private TableLayoutPanel tableLayoutPanel2;
         private Panel panel5;
         private TextBox textBox7;
@@ -1034,5 +671,17 @@
         private Panel panel6;
         private TextBox textBox8;
         private Label label5;
+        private ProductControl productPlace2;
+        private ProductControl productPlace11;
+        private ProductControl productPlace12;
+        private ProductControl productPlace9;
+        private ProductControl productPlace10;
+        private ProductControl productPlace7;
+        private ProductControl productPlace8;
+        private ProductControl productPlace5;
+        private ProductControl productPlace6;
+        private ProductControl productPlace3;
+        private ProductControl productPlace4;
+        private ProductControl productPlace1;
     }
 }
